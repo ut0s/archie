@@ -1,10 +1,11 @@
 /* Markdown */
 :root{
---maincolor: red;
---bordercl:rebeccapurple;
+--maincolor: #ff6600;
+--bordercl: #ff6600;
 --callouctcolor:dodgerblue;
---hovercolor:navy;
+--hovercolor:orange;
 --darkMaincolor: #50fa7b;
+--darkBordercl: #50fa7b;
 }
 html {
   color: #232333;
@@ -61,7 +62,7 @@ ul li {
   text-indent: -2ch;
 }
 ul > li::before {
-  content: '* ';
+  content: '- ';
   font-weight: bold;
 }
 

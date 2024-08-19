@@ -10,13 +10,13 @@ body {
 }
 
 ::selection {
-  background: red;
+  background: var(--darkBordercl);
   color: #fff;
   text-shadow: none;
 }
 
 hr {
-  border-top: 3px dotted blue;
+  border-top: 3px dotted var(--darkBordercl);
 }
 code {
   background-color: lightblue;
@@ -31,7 +31,7 @@ pre {
   padding: 1em;
 }
 blockquote {
-  border-color: blue;
+  border-color: var(--darkBordercl);
 }
 
 h1,
@@ -106,6 +106,15 @@ a:hover {
   border-color: #333;
 }
 
+footer {
+  display: flex;
+  align-items: center;
+  border-top: 0.4rem dotted var(--darkBordercl);
+  padding: 2rem 0rem;
+  margin-top: 2rem;
+}
+
+
 .highlight {
   background-color: #333;
 }
@@ -114,7 +123,7 @@ a:hover {
 }
 .draft-label {
   color: var(--darkMaincolor);
-  background-color: blue;
+  background-color: var(--darkBordercl);
 }
 .highlight pre code[class=language-javaScript]::before,
 .highlight pre code[class="language-js"]::before {
